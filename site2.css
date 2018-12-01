@@ -1,0 +1,78 @@
+body {
+  background-color: black;
+  background-image: url(smallflag.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+}
+
+header {
+  background-color: #000033;
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+  height: 7vw;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.left {
+  background-image: linear-gradient(to right, black, #000033);
+  float: left;
+  height: 7vw;
+  width: 30%;
+}
+
+h1 {
+  border-bottom: 2px solid #FFF;
+  display: inline-block;
+  font-family: 'Bitter', serif;
+  font-size: 2vw;
+  margin: 0px auto 0px auto;
+  padding: 0px 0px 6px 0px;
+  text-align: center;
+  text-shadow: 3px 3px 2px #000;
+}
+
+.lefttop {
+  padding: 10px 0px 0px 0px;
+}
+
+.leftbottom {
+  display: table;
+  width: 100%;
+  margin 20px auto;
+}
+
+.leftbottom img {
+  width: 8.5%;
+  margin: auto;
+}
+
+.right {
+  display: inline-block;
+  float:right;
+  height: 9.5vw;
+  vertical-align: bottom;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+li {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px 20px 0px 0px;
+  text-shadow: 3px 3px 2px #000;
+  vertical-align: middle;
+}
